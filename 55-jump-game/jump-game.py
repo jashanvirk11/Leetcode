@@ -12,7 +12,7 @@ class Solution(object):
         #   If you can reach the final position from this index
         #    update the final position flag
 # index 3
-        for i in range(len(nums)-2,-1,-1):
+        for i in range(len(nums)-1,-1,-1):
             if (i + nums[i]) >= last_position: 
                last_position = i 
 
