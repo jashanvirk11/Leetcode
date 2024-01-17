@@ -13,7 +13,8 @@ class Solution(object):
         #    update the final position flag
 # index 3
         for i in range(len(nums)-1,-1,-1):
-            if (i + nums[i]) >= last_position: 
+            # mus[i ]  = jump length 
+            if i + nums[i] >= last_position: 
                last_position = i 
 
         return last_position == 0
