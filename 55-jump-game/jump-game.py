@@ -7,7 +7,7 @@ class Solution(object):
 
         #Initially the final position is the last index
         last_position  = len(nums)-1
-        # 4 means
+        # 43means
 
         #   If you can reach the final position from this index
         #    update the final position flag
