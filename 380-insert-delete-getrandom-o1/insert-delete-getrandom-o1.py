@@ -2,7 +2,7 @@ class RandomizedSet(object):
 
     def __init__(self):
         self.list=[]
-        self.set={}
+        self.dict={}
         
 
     def insert(self, val):
