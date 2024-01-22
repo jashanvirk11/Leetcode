@@ -28,9 +28,9 @@ class Solution(object):
         # 24,12,8,6
 
     # calculate the product of all elements except nums[i]
-    
-        result = [products_right[i] * products_left[i] for i in range(length)]
-
-        
+        result = [1]* length
+        for i in range(0, length):
+            result[i] = products_left[i]*products_right[i]
+           
         return result 
         
