@@ -6,14 +6,14 @@ class Solution(object):
         """
     
         temp = x
-        sum=0
+        reverse=0
 
         while x>0:
-            rem = x%10
-            sum = rem+(sum*10)
+            last_digit = x%10
+            reverse = last_digit+(reverse*10)
             x = x/10
 
-        if temp == sum:
+        if temp == reverse:
            return True
         else:
            return False
