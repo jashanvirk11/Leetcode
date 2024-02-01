@@ -6,7 +6,7 @@ class Solution(object):
         """
         # Split the input string on spaces to get a list of words
         words = s.split()
-        print(words)
+       
         # Reverse the list of words
         reversed_words = reversed(words)
       
